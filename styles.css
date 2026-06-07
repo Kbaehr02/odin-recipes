@@ -1,0 +1,71 @@
+*{
+    font-size: 30px;
+    font-weight: 800;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 50px;
+}
+h4{
+    font-size: 40px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(161, 164, 252)
+}
+#top-banner{
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 10pt solid rgb(35, 43, 198);
+    border-bottom: 10pt solid rgb(35, 43, 198);
+    margin-top: 0;
+    text-align: center;
+    background: rgb(3, 4, 31);
+    font-family: "Lucida Calligraphy", "Times New Roman", serif;
+    color: rgb(223, 209, 209);
+}
+.recipe-banner {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.recipe-info{
+    display: flex;
+    align-items: top;
+    gap: 20px;
+}
+.description h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.description p{
+    margin-top: 10px;
+}
+.recipe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.picture{
+    height: 300px;
+    width: auto;
+}
+.button{
+    display: block;
+    padding: 10px;
+    border:5pt solid rgb(35, 43, 198);
+    margin: 100px auto;
+    background-color: rgb(3,4,31);
+    font-family: "Lucida Calligraphy", "Times New Roman", serif;
+    font-size: 20px;
+    color: rgb(223, 209, 209);
+}
+.button.main{
+    border:10pt solid rgb(35, 43, 198);
+    width: 600px;
+    height: 200px;
+    font-size: 50px;
+}

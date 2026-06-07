@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel = "stylesheet" href = "../styles.css">
 </head>
 <body>
-    <h1>Smokey Grilled Porkchops</h1>
-    <img src = "../images/SmokeyGrilledPorkchops.webp" width = "250" height = "175" alt = "A photo of the finished porkchops. Credit to Kim Shupe via Allrecipes.com">
-    <h4>Description</h4>
-    <p>These tasty grilled pork chops are flavored with an easy homemade seasoning rub for a spicy, smoky flavor.
-        They're quick to prep and always a favorite at BBQ parties.</p>
+    <h1 id = "top-banner">Odin Recipes</h1>
+    <h2 style = "text-align: center">Smokey Grilled Porkchops</h2>
+    <div class = "recipe-info">
+        <img class = "picture" src = "../images/SmokeyGrilledPorkchops.webp" width = "250" height = "175" alt = "A photo of the finished porkchops. Credit to Kim Shupe via Allrecipes.com">
+        <div class = "description">
+            <h4>Description</h4>
+            <p>
+                These tasty grilled pork chops are flavored with an easy homemade seasoning rub for a spicy, smoky flavor.
+                They're quick to prep and always a favorite at BBQ parties.
+            </p>
+        </div>
+    </div>
     <h4>Ingredients</h4>
     <ul>
         <li>1 tablespoon seasoned salt (such as Lawry's)</li>
@@ -30,7 +38,25 @@
         <li>Cook chops on the preheated grill over indirect heat until no longer pink inside, about 12 minutes per side. An instant-read thermometer should read at least 145 degrees F (63 degrees C).</li>
         <li>Let stand for 10 minutes before serving.</li>
     </ol>
-    <h2>Return to main menu</h2>
-    <a href = "../index.html">Main Menu</a>
+    <h2>Other Recipes</h2>
+    <div class = "recipe-banner">
+        <a class = "recipe" href = "./Smokey_Grilled_Porkchops.html" rel = "noreferrer">
+            <img class = "picture" src = "../images/SmokeyGrilledPorkchops.webp" width = "250" height = "175" alt = "A photo of the finished porkchops. Credit to Kim Shupe via Allrecipes.com"> 
+            <button class = "button">Smokey Grilled Porkchops</button>
+        </a>
+        
+        <a class = "recipe" href = "./NoChurn_Rainbow_Mermaid_Ice_Cream.html" rel = "noreferrer">
+            <img class = "picture" src = "../images/RainbowIceCream.webp" width = "250" height = "175" alt = "A photo of the Rainbow Ice Cream. Credit to Alexander Petrie via Allrecipes.com">
+            <button class = "button">No Churn Rainbow Mermaid Ice Cream</button>
+        </a>
+        
+        <a class = "recipe" href = "./Chicken_Piccata.html" rel = "noreferrer">
+            <img class = "picture" src = "../images/ChickenPiccata.webp" width = "250" height = "175" alt = "A photo of the finished chicken piccata. Credit to Juliana Hale via Allrecipes.com">
+            <button class = "button">Chicken Piccata</button>
+        </a>
+    </div>
+    <a href = "../index.html">
+        <button class = "button main">Return to main menu</button>
+    </a>
 </body>
 </html>

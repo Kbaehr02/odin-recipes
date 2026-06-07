@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel = "stylesheet" href = "../styles.css">
 </head>
 <body>
-    <h1>Chicken Piccata</h1>
-    <img src = "../images/ChickenPiccata.webp" width = "250" height = "175" alt = "A photo of the finished chicken piccata. Credit to Juliana Hale via Allrecipes.com">
-    <h4>Description</h4>
-    <p>This sheet pan chicken piccata and potatoes is incredibly flavorful and delicious. 
-        Lemon and parsley add color and freshness and the whole dish could not be easier to make.</p>
+    <h1 id = "top-banner">Odin Recipes</h1>
+    <h2 style = "text-align: center">Chicken Piccata</h2>
+    <div class = "recipe-info">
+        <img class = "picture" src = "../images/ChickenPiccata.webp" width = "250" height = "175" alt = "A photo of the finished chicken piccata. Credit to Juliana Hale via Allrecipes.com">
+        <div class = "description">
+            <h4>Description</h4>
+            <p>
+                This sheet pan chicken piccata and potatoes is incredibly flavorful and delicious.
+                Lemon and parsley add color and freshness and the whole dish could not be easier to make.
+            </p>
+        </div>
+    </div>
     <h4>Ingredients</h4>
     <ul>
         <li>4 (4 to 5-ounce) skinless, boneless chicken breasts or thighs</li>
@@ -40,7 +48,25 @@
         <li>Return to oven and bake 30 minutes, until chicken is done (165 degrees F or 74 degrees C), and potatoes are tender. In the last 10 minutes of bake time, top chicken and potatoes with sliced lemon, capers, and garlic. </li>
         <li>Garnish with parsley.</li>
     </ol>
-    <h2>Return to main menu</h2>
-    <a href = "../index.html">Main Menu</a>
+    <h2>Other Recipes</h2>
+    <div class = "recipe-banner">
+        <a class = "recipe" href = "./Smokey_Grilled_Porkchops.html" rel = "noreferrer">
+            <img class = "picture" src = "../images/SmokeyGrilledPorkchops.webp" width = "250" height = "175" alt = "A photo of the finished porkchops. Credit to Kim Shupe via Allrecipes.com"> 
+            <button class = "button">Smokey Grilled Porkchops</button>
+        </a>
+        
+        <a class = "recipe" href = "./NoChurn_Rainbow_Mermaid_Ice_Cream.html" rel = "noreferrer">
+            <img class = "picture" src = "../images/RainbowIceCream.webp" width = "250" height = "175" alt = "A photo of the Rainbow Ice Cream. Credit to Alexander Petrie via Allrecipes.com">
+            <button class = "button">No Churn Rainbow Mermaid Ice Cream</button>
+        </a>
+        
+        <a class = "recipe" href = "./Chicken_Piccata.html" rel = "noreferrer">
+            <img class = "picture" src = "../images/ChickenPiccata.webp" width = "250" height = "175" alt = "A photo of the finished chicken piccata. Credit to Juliana Hale via Allrecipes.com">
+            <button class = "button">Chicken Piccata</button>
+        </a>
+    </div>
+    <a href = "../index.html">
+        <button class = "button main">Return to main menu</button>
+    </a>
 </body>
 </html>

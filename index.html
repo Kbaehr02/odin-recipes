@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel = "stylesheet" href = "styles.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <img src = "./images/SmokeyGrilledPorkchops.webp" width = "250" height = "175" alt = "A photo of the finished porkchops. Credit to Kim Shupe via Allrecipes.com"> 
-        <li><a href = "./recipes/Smokey_Grilled_Porkchops.html" rel = "noreferrrer">Smokey Grilled Porkchops</a></li>
-        <img src = "./images/RainbowIceCream.webp" width = "250" height = "175" alt = "A photo of the Rainbow Ice Cream. Credit to Alexander Petrie via Allrecipes.com">
-        <li><a href = "./recipes/NoChurn_Rainbow_Mermaid_Ice_Cream.html" rel = "noreferrrer">No Churn Rainbow Mermaid Ice Cream</a></li>
-        <img src = "./images/ChickenPiccata.webp" width = "250" height = "175" alt = "A photo of the finished chicken piccata. Credit to Juliana Hale via Allrecipes.com">
-        <li><a href = "./recipes/Chicken_Piccata.html" rel = "noreferrrer">Chicken Piccata</a></li>
-    </ul>
+    <h1 id = "top-banner">Odin Recipes</h1>
+    <div class = "recipe-banner">
+        <a class = "recipe" href = "./recipes/Smokey_Grilled_Porkchops.html" rel = "noreferrer">
+            <img class = "picture" src = "./images/SmokeyGrilledPorkchops.webp" width = "250" height = "175" alt = "A photo of the finished porkchops. Credit to Kim Shupe via Allrecipes.com"> 
+            <button class = "button">Smokey Grilled Porkchops</button>
+        </a>
+        
+        <a class = "recipe" href = "./recipes/NoChurn_Rainbow_Mermaid_Ice_Cream.html" rel = "noreferrer">
+            <img class = "picture" src = "./images/RainbowIceCream.webp" width = "250" height = "175" alt = "A photo of the Rainbow Ice Cream. Credit to Alexander Petrie via Allrecipes.com">
+            <button class = "button">No Churn Rainbow Mermaid Ice Cream</button>
+        </a>
+        
+        <a class = "recipe" href = "./recipes/Chicken_Piccata.html" rel = "noreferrer">
+            <img class = "picture" src = "./images/ChickenPiccata.webp" width = "250" height = "175" alt = "A photo of the finished chicken piccata. Credit to Juliana Hale via Allrecipes.com">
+            <button class = "button">Chicken Piccata</button>
+        </a>
+    </div>
 </body>
 </html>
